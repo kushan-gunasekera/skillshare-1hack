@@ -11,6 +11,7 @@ class Skillshare(object):
         brightcove_account_id=3695997568001,
     ):
         self.cookie = cookie.strip().strip('"')
+        print(f'self.cookie: {self.cookie}')
         self.download_path = download_path
         self.pk = pk.strip()
         self.brightcove_account_id = brightcove_account_id
